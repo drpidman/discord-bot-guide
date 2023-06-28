@@ -1,12 +1,10 @@
 
 
-echo "Running build ->"
-cmake build/
-echo "Joining build dir"
-cd build
-echo "Running make"
-make -j4
-echo "Exit build dir"
-cd ..
-echo "Running app"
-build/discord-programming-guide
+if $1  == --cmake-clean
+    rm -rf build/*
+elif $1 == --cmake-make
+    cmake build/
+elif $1 == --make-build
+    make -j4
+fi
+

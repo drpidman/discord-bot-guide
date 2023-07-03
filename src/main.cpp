@@ -3,11 +3,7 @@
 #include <iostream>
 #include "events/on_ready.h"
 #include "events/on_slashcommand.h"
-
 #include "dotenv.h"
-
-const std::string BOT_TOKEN = "MTA3MTI3NDA1MzQ5MjU0MzUwOA.G8Rcj1.V9ntJrrV43K738RLKYRxXgq5VUT4_JPTaNRPpg";
-
 
 int main(int argc, char const *argv[])
 {

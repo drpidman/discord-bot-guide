@@ -1,10 +1,5 @@
 #include "commands/docs.h"
-#include "commands/CommandNames.h"
-#include <dpp/dpp.h>
-#include <curl/curl.h>
-
 #include "dotenv.h"
-#include <nlohmann/json.hpp>
 
 
 Langs resolveLang(const std::string& lang)

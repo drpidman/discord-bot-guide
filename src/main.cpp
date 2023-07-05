@@ -16,11 +16,11 @@ int main(int argc, char const *argv[])
     bot.on_log(dpp::utility::cout_logger());
 
     bot.on_ready([&bot](const dpp::ready_t& event) {
-        onReady(bot);
+        on_ready(bot);
     });
 
     bot.on_slashcommand([&bot](const dpp::slashcommand_t & event) {
-        onSlashcommand(event, bot);
+        on_slashcommand(event, bot);
     });
 
     bot.start(dpp::st_wait);

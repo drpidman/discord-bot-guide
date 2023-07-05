@@ -4,4 +4,4 @@
 #include "commands/CommandNames.h"
 
 
-void onSlashcommand(const dpp::slashcommand_t& event, const dpp::cluster& bot);
+void on_slashcommand(const dpp::slashcommand_t& event, const dpp::cluster& bot);

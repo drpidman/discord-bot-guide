@@ -1,3 +1,5 @@
 #include <dpp/dpp.h>
+#include "commands/CommandNames.h"
+#include "commands/docs.h"
 
-void onReady(dpp::cluster &bot);
+void on_ready(dpp::cluster &bot);

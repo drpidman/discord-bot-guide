@@ -1,7 +1,7 @@
 #include <dpp/dpp.h>
 #include "events/on_slashcommand.h"
 
-void onSlashcommand(const dpp::slashcommand_t& event, const dpp::cluster& bot)
+void on_slashcommand(const dpp::slashcommand_t& event, const dpp::cluster& bot)
 {
     std::cout << event.command.get_command_name() << " Foi executado" << std::endl;
 
